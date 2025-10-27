@@ -30,17 +30,3 @@ function code:circle:
                 particle flame ~x ~ ~z
     execute if score @s timer matches 40 run scoreboard players set @s timer 0
 
-
-function code:sphere:
-    scoreboard players add @s timer 1
-    for frame in range(40):
-        execute if score @s timer matches frame:
-            for i in range(100):
-                angle = math.tau/100*i
-                radius = 5
-                x = radius * math.sin(angle)
-                z = radius * math.cos(angle)
-                y = radius * math.cos(angle)
-
-                particle flame ~x ~ ~z
-    execute if score @s timer matches 40 run scoreboard players set @s timer 0

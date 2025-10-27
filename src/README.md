@@ -1,3 +1,6 @@
+# https://github.com/kuko010/LegitiveCode
+
+
 # Beginners Guide To Datapacks and This Server
 To get started, look in ``data/code/functions/load.mcfunction`` and ``data/code/functions/tick.mcfunction``.
 Write some commands, then run ``/reload`` in game to see your changes.
