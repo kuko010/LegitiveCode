@@ -1,0 +1,4 @@
+# VSCode and Beet
+.vscode 
+.beet_cache
+build/
