@@ -1,0 +1,1 @@
+tellraw @a [{"text":"","extra":[{"text":"B","color":"#FF4366","bold":true},{"text":"e","color":"#4DFF89","bold":true},{"text":"l","color":"#88FFB0","bold":true},{"text":"l","color":"#C4FFD8","bold":true},{"text":"s","color":"#FFFFFF","bold":true}]}]

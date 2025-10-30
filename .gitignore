@@ -2,3 +2,4 @@
 .vscode 
 .beet_cache
 build/
+build/code_data_pack/data/jak/function/load.mcfunction
